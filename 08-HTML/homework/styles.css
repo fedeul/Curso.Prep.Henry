@@ -1,0 +1,50 @@
+h1 {
+  color: rgb(161, 149, 144);
+}
+
+img {
+  width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: darkgrey;
+  padding: 50px;
+  border: darkorange 2px solid;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.divClass {
+  text-align: center;
+}
+
+#spanId {
+  font-size: 18px;
+  background-color: floralwhite;
+  padding: 3px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(47, 79, 79, 0.815);
+  padding: 30px;
+  margin: 0 auto;
+}
+
+html {
+  background-image: url(https://thumbs.dreamstime.com/b/pizza-seamless-pattern-vector-pizza-pattern-abstract-background-background-useful-restaurant-identity-packaging-89205691.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 3%;
+}

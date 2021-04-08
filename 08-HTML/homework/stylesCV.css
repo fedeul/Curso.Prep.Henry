@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 5em;
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1.7fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Titulo Titulo Titulo Titulo"
+      "FOTO FOTO Descripción Descripción"
+      "SKILLS SKILLS Educación Educación"
+      "HOBBIES HOBBIES ExperienciasLaborales ExperienciasLaborales";
+  }
+}
+
+.Titulo {
+  grid-area: Titulo;
+  color: coral;
+  text-align: center;
+  /* background-image: url(https://media-exp1.licdn.com/dms/image/C5616AQEGPVeQc73utQ/profile-displaybackgroundimage-shrink_350_1400/0/1595870803311?e=1623283200&v=beta&t=F5KjvhhlVj1vfUMIS5ndNDdgkWqV3vSCqO2jWD82unU); */
+  min-height: 3rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.FOTO {
+  grid-area: FOTO;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SKILLS {
+  grid-area: SKILLS;
+}
+
+.HOBBIES {
+  grid-area: HOBBIES;
+}
+
+.HOBBIES > ul {
+  list-style: none;
+  font-size: 2em;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .HOBBIES > ul > li {
+    list-style: none;
+    font-size: 2em;
+    /* float: left; */
+  }
+  .HOBBIES > ul {
+    justify-content: initial;
+    /* float: left; */
+  }
+}
+
+.Descripción {
+  grid-area: Descripción;
+}
+
+p {
+  font-style: italic;
+  line-height: 2.7em;
+}
+
+.Educación {
+  grid-area: Educación;
+}
+.Educación > ul > li {
+  margin-bottom: 26px;
+}
+
+.ExperienciasLaborales {
+  grid-area: ExperienciasLaborales;
+}
+
+h1 {
+  box-shadow: 5px 5px 5px coral;
+  padding: 10px;
+  width: 50%;
+  margin: 6rem auto 3rem auto;
+  color: #ffffff;
+  background-color: coral;
+}
+
+img {
+  box-shadow: 5px 5px 5px coral;
+}
+
+.art {
+  list-style: "🖌  ";
+}
+
+.dev {
+  list-style: "💻  ";
+}
+
+.office {
+  list-style: "📃  ";
+}
+
+.collab {
+  list-style: "🤝🏻  ";
+}
+
+.dots {
+  background-color: coral;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin: 20px;
+}
+
+#elipsis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+#why {
+  margin-bottom: 8rem;
+}
