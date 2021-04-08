@@ -47,7 +47,6 @@ body {
   list-style: none;
   font-size: 2em;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -55,11 +54,9 @@ body {
   .HOBBIES > ul > li {
     list-style: none;
     font-size: 2em;
-    /* float: left; */
   }
   .HOBBIES > ul {
     justify-content: initial;
-    /* float: left; */
   }
 }
 
